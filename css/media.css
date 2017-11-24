@@ -1,0 +1,57 @@
+@media(max-width:768px) {
+
+    .header {
+
+        padding: 30px;
+        height: 800px;
+    }
+
+    .header img {
+
+        width: 95%;
+        height: 232px;
+        margin: 0px 0 0 9px;
+    }
+
+    .header .btn {
+
+        font-size: 10px;
+     margin-left: -18px;
+    }
+
+    .header h1 {
+
+        font-size: 20px;
+    }
+
+    .header p {
+
+        font-size: 12px;
+    }
+    
+    .services{
+        padding: 30px;
+    }
+    
+    .pricing{
+        padding: 30px;
+    }
+    
+    .packages{
+        width: 80%;
+        margin-left: 25px;
+    }
+}
+
+
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+    ...
+}
+
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+    ...
+}
+
+@media (min-width: @screen-lg-min) {
+    ...
+}
